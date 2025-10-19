@@ -1,0 +1,23 @@
+.listItem {
+  list-style-type: none;
+  display: flex;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px;
+  background-color: #475569;
+  padding: 10px;
+  align-items: center;
+  color: white;
+  width: 40vw;
+  height: 20vh;
+}
+.imageItem {
+  height: 9vh;
+  width: 7vw;
+  margin: 5px;
+}
+.namehead {
+  font-size: 40px;
+  width: 30vw;
+  margin: 5px;
+}

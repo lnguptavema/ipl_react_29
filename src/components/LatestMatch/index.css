@@ -1,0 +1,27 @@
+h1,
+p {
+  color: white;
+}
+.listLM {
+  list-style-type: none;
+}
+.card1Main {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.cardLatestMatch {
+  background-color: #1e293b;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80vw;
+}
+.venue {
+  width: 21vw;
+}
+.competing_team_logo {
+  height: 25vh;
+  width: 16vw;
+}

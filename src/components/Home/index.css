@@ -1,0 +1,24 @@
+.homecard {
+  display: flex;
+  justify-content: center;
+}
+.batLogo {
+  height: 20vh;
+  width: 10vw;
+}
+.iplhead {
+  color: white;
+  font-size: 45px;
+}
+.link {
+  text-decoration: none;
+}
+.container {
+  padding: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
