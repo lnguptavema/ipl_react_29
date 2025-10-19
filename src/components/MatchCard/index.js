@@ -8,7 +8,6 @@ class MatchCard extends Component {
   render() {
     const {item} = this.props
     const {key} = this.props
-    console.log(item)
     const {result} = item
     const competingTeam = item.competing_team
     const matchStatus = item.match_status

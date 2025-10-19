@@ -10,6 +10,12 @@
   color: white;
   width: 40vw;
   height: 20vh;
+  text-decoration: none;
+}
+.list {
+  display: flex;
+  align-items: center;
+  align-content: center;
 }
 .imageItem {
   height: 9vh;
@@ -17,7 +23,9 @@
   margin: 5px;
 }
 .namehead {
-  font-size: 40px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: brieserif;
   width: 30vw;
   margin: 5px;
 }

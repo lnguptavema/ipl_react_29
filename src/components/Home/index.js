@@ -34,7 +34,6 @@ class Home extends Component {
       <Link to="/" className="link">
         <div className="container" data-testid="loader">
           <div className="homecard">
-            <h1>{loadershow} </h1>
             <img
               className="batLogo"
               src="https://assets.ccbp.in/frontend/react-js/ipl-logo-img.png "
