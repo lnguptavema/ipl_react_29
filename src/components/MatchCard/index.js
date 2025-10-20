@@ -3,8 +3,6 @@ import './index.css'
 import {Component} from 'react'
 
 class MatchCard extends Component {
-  state = {count: null}
-
   render() {
     const {item} = this.props
     const {key} = this.props

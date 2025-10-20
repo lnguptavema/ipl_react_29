@@ -29,7 +29,7 @@ class Home extends Component {
   }
 
   render() {
-    const {listItems, loadershow} = this.state
+    const {listItems} = this.state
     return (
       <Link to="/" className="link">
         <div className="container" data-testid="loader">

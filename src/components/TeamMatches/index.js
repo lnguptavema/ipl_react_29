@@ -2,6 +2,8 @@ import {Component} from 'react'
 
 import './index.css'
 
+import {Link} from 'react-router-dom'
+
 import Loader from 'react-loader-spinner'
 
 import LatestMatch from '../LatestMatch'
@@ -10,9 +12,7 @@ import MatchCard from '../MatchCard'
 
 class TeamMatches extends Component {
   state = {
-    teamData: [],
     loaderShow: true,
-    bannerUrl: '',
     backgroundColor: '',
     teamMatchDetailsstate: [],
     recentArray: [],
@@ -63,7 +63,6 @@ class TeamMatches extends Component {
     }
     console.log(recentMatches)
     this.setState({
-      teamData: data,
       bannerURl: teamBannerUrl,
       loaderShow: !loaderShow,
       teamMatchDetailsstate: teamMatchDetails,
@@ -86,7 +85,7 @@ class TeamMatches extends Component {
             <Loader type="Oval" color="#ffffff" height={50} width={50} />
           </div>
         ) : (
-          <div className={`${backgroundColor}`}>
+          <div className={`maincont ${backgroundColor}`}>
             <div className="bannerURl">
               {' '}
               <img src={bannerURl} alt="team banner" className="banerURl" />
@@ -101,6 +100,15 @@ class TeamMatches extends Component {
                 <MatchCard key={eactItem.id} item={eactItem} />
               ))}
             </ul>
+            <Link to="/" className="textdecor">
+              {' '}
+              <div className="containerbutton">
+                {' '}
+                <button className="buttonBack" type="button">
+                  Back
+                </button>
+              </div>
+            </Link>{' '}
           </div>
         )}
       </div>
@@ -109,8 +117,3 @@ class TeamMatches extends Component {
 }
 
 export default TeamMatches
-//  <ul>
-//               {recentMatches.map(eachItem => (
-//                 <MatchCard eachItem={eachItem} />
-//               ))}
-//             </ul>

@@ -3,8 +3,6 @@ import './index.css'
 import {Component} from 'react'
 
 class LatestMatch extends Component {
-  state = {count: null}
-
   renderItem() {
     const {teamMatchDetails} = this.props
     const {umpires} = teamMatchDetails

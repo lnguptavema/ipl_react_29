@@ -8,6 +8,13 @@
   flex-wrap: wrap;
   display: flex;
 }
+.containerbutton {
+  margin: 20px;
+}
+.maincont {
+  margin: 0px;
+  padding: 10px;
+}
 .kkr {
   background-color: #5755a7;
 }
